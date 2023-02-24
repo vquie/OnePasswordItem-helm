@@ -1,0 +1,1 @@
+# This helm chart allows to set deployment independent secrets from 1Password. The main feature is, you can use it via helmfile.
