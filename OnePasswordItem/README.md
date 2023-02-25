@@ -17,3 +17,13 @@ secrets:
     - item: "vaults/<vault_id_or_title>/items/item_id_or_title>"
       name: "secret4"
 ```
+
+## usage
+```
+# install repo
+helm repo add vquie https://vquie.github.io/helm-charts
+helm repo update
+
+# install chart
+helm upgrade --install --namespace your-namespace 1password-secrets-release vquie/onepassworditem -f values.yaml
+```
